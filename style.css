@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size:62.5%;
+    color: white;
+}
+body{
+    background:linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),url(/assets/Cia-Athletica-Nacional-Musculacao-emagrece-6-provas-que-sim-GS2-Marketing.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    background: rgba(22, 22, 22, 0.2);
+}
+.menu-nav{
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+.logo{
+    font-size: 1.8rem;
+    letter-spacing: 0.7rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size:17px;
+}
+.menu-nav .lista{
+    display: flex;
+    font-size: 15px; 
+    gap: 10px;  
+    list-style: none;
+}
+.menu-nav .lista a{
+    text-decoration: none;
+    color: white;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+
+}
+.menu-nav .lista a:before{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(39, 71, 49);
+    transition: all 1.5s ease;
+}
+.menu-nav .lista a:hover:before{
+    width: 100%;
+}
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-primary{
+    width: 850px;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight:600;
+    color: #718696;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.text-second{
+    margin-bottom: 7rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: rgb(93, 104, 97);
+    font-weight: 600;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.buttons button{
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+    font-family:'Roboto Condensed', sans-serif;
+}
+.buttons button:hover{
+    color:rgb(105, 139, 76);
+    border: none;
+}
+.buttons button:before {
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.buttons button:hover:before {
+    width: 100%;
+}
