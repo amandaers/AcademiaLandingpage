@@ -12,7 +12,7 @@ html{
     color: white;
 }
 body{
-    background:linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),url(/assets/Cia-Athletica-Nacional-Musculacao-emagrece-6-provas-que-sim-GS2-Marketing.jpg);
+    background:linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)),url(./assets/Cia-Athletica-Nacional-Musculacao-emagrece-6-provas-que-sim-GS2-Marketing.jpg);
     background-position: center;
     background-size: cover;
     background-position-y: 0px;
